@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="content">
+        <div class="content-image">
+            <img src="/assets/images/login-statics.png" alt="Rerefencial">
+        </div>
+        <div class="content-form container-form">
+            <p style="font-size: 2.5rem; margin-bottom: 2rem; text-align: center;">POS System</p>
+
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; text-align: center;">Iniciar session</p>
+            <p-inputGroup class="i-group">
+                <!-- <p-inputGroupAddon>
+                    <i class="pi pi-user"></i>
+                </p-inputGroupAddon> -->
+                <input pInputText placeholder="Usuario" />
+            </p-inputGroup>
+            <p-inputGroup class="i-group">
+                <input type="password" pInputText placeholder="Contraseña" />
+            </p-inputGroup>
+            <p-inputGroup>
+                <button pButton pRipple size="small" style="width: 100%;" label="Iniciar sesion" class="p-button-primary">
+                </button>
+            </p-inputGroup>
+
+            <p-inputGroup [style]="{ marginTop: '2rem',justifyContent: 'center'}">
+                <a href="#" style="text-decoration: none; color: rgb(46, 46, 255);">Crear una cuenta</a>
+            </p-inputGroup>
+        </div>
+    </div>
+</div>
